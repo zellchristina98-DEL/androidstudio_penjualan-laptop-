@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my store"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Laptop"
+        android:id="@+id/tombollaptop"
+        android:backgroundTint="#800000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data pembeli"
+        android:id="@+id/tombolpembeli"
+        android:backgroundTint="#800000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data paket"
+        android:id="@+id/tombolpaket"
+        android:backgroundTint="#800000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data belicash"
+        android:id="@+id/tombolbeli"
+        android:backgroundTint="#800000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data beli kredit"
+        android:id="@+id/tombolkredit"
+        android:backgroundTint="#800000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data bayar cicilan"
+        android:id="@+id/tombolcicilan"
+        android:backgroundTint="#800000"/>
+
+
+</LinearLayout>
