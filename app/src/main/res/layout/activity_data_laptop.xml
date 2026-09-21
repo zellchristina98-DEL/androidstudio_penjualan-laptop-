@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+Data mobil "
+        android:text="+Data laptop "
         android:textAlignment="center"
         android:textSize="22sp"
         android:textStyle="bold"

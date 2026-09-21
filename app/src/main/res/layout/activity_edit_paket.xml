@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/editUangMuka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Uang muka"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/editTenor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tenor"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/editBungaCicilan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bunga cicilan"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/tombolupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#800000"
+        android:text="Update" />
+
+
+    <Button
+        android:id="@+id/tombolbatal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#800000"
+        android:text="Batal" />
+
+</LinearLayout>

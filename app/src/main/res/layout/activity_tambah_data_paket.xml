@@ -40,7 +40,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editnohp"
+        android:id="@+id/editbunga"
         android:hint="bunga (%)"
         android:inputType="number"
         android:layout_marginBottom="16dp"/>
