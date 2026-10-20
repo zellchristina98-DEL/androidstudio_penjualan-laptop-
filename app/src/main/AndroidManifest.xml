@@ -32,12 +32,12 @@
         <activity android:name=".DataBeliCashActivity"/>
         <activity android:name=".tambahdatabelicashactivity"/>
         <activity android:name=".DataBeliKreditActivity"/>
+        <activity android:name=".tambahdatakreditactivity" android:exported="false" />
         <activity android:name=".EditlaptopActivity"/>
         <activity android:name=".DataBayarCicilanActivity"/>
         <activity android:name=".tambahdatabayarcicilanactivity"/>
         <activity android:name=".EditpaketActivity"/>
         <activity android:name=".EditPembeliActivity"/>
-
 
     </application>
 
